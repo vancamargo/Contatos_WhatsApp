@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Commands\AdicionarUsuario\**" />
+    <Compile Remove="Commands\teste\**" />
+    <EmbeddedResource Remove="Commands\AdicionarUsuario\**" />
+    <EmbeddedResource Remove="Commands\teste\**" />
+    <None Remove="Commands\AdicionarUsuario\**" />
+    <None Remove="Commands\teste\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.2" />
+    <PackageReference Include="prmToolkit.NotificationPattern" Version="1.1.3" />
+  </ItemGroup>
+
+</Project>
