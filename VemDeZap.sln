@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VemDeZap.Domain", "VemDeZap.Domain\VemDeZap.Domain.csproj", "{9BC0AE09-C05F-4D1C-83B4-90928A98D85E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VemDeZap.Domain", "VemDeZap.Domain\VemDeZap.Domain.csproj", "{9BC0AE09-C05F-4D1C-83B4-90928A98D85E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VemDeZap.Api", "VemDeZap.Api\VemDeZap.Api.csproj", "{20C58930-671E-4FD8-BF77-FABDE8C6B859}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9BC0AE09-C05F-4D1C-83B4-90928A98D85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BC0AE09-C05F-4D1C-83B4-90928A98D85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BC0AE09-C05F-4D1C-83B4-90928A98D85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C58930-671E-4FD8-BF77-FABDE8C6B859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C58930-671E-4FD8-BF77-FABDE8C6B859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C58930-671E-4FD8-BF77-FABDE8C6B859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C58930-671E-4FD8-BF77-FABDE8C6B859}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
